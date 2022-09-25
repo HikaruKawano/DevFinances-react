@@ -45,9 +45,9 @@ function App() {
                 <tbody><tr data-index="0">
             <td className="production">Televisão</td>
             <td className="description">ttttt</td>
-            <td className="income">R$&nbsp;233,00</td>
+            <td className="income">R$ 233,00</td>
             <td className="date">07/09/2022</td>
-            <td> <img src="./img/minus.svg" alt="Remover transação"/></td>
+            <td> <img src="../src/assets/minus.svg" alt="Remover transação"/></td>
             
         </tr></tbody>
             </table>
