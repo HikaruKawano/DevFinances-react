@@ -3,6 +3,18 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Finance {
+  date: String!
+  description: String!
+  id: ID!
+  name: String!
+  price: Float!
+}
+
+type Mutation {
+  createFinance(name: String!): Finance!
+}
+
 type Query {
-  finances: String!
+  finances: [Finance!]!
 }
