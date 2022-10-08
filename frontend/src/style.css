@@ -69,6 +69,8 @@ p{
 .button.new {
   display: inline-block;
   margin-bottom: 0.8rem;
+  border: none;
+  color: #12a454;
 }
 
 a {
@@ -202,8 +204,17 @@ input{
 .input-group.action .button,
 .input-group.action button{
   width: 48%;
+  height: 28px;
+  font-weight: bold;
 }
 
+button.cancel{
+  background-color: red;
+}
+
+button.confirm{
+  background-color: greenyellow;
+}
 
 
 
